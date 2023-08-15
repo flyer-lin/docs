@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-65b9147a\",\"path\":\"/pages/vue/vuex.html\",\"title\":\"vuex学习\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"vuex是什么\",\"slug\":\"vuex是什么\",\"link\":\"#vuex是什么\",\"children\":[]},{\"level\":2,\"title\":\"简单用法\",\"slug\":\"简单用法\",\"link\":\"#简单用法\",\"children\":[]},{\"level\":2,\"title\":\"State\",\"slug\":\"state\",\"link\":\"#state\",\"children\":[{\"level\":3,\"title\":\"在 Vue 组件中获得 Vuex 状态\",\"slug\":\"在-vue-组件中获得-vuex-状态\",\"link\":\"#在-vue-组件中获得-vuex-状态\",\"children\":[]},{\"level\":3,\"title\":\"mapState 辅助函数\",\"slug\":\"mapstate-辅助函数\",\"link\":\"#mapstate-辅助函数\",\"children\":[]}]},{\"level\":2,\"title\":\"Getter\",\"slug\":\"getter\",\"link\":\"#getter\",\"children\":[{\"level\":3,\"title\":\"通过属性访问\",\"slug\":\"通过属性访问\",\"link\":\"#通过属性访问\",\"children\":[]},{\"level\":3,\"title\":\"通过方法访问\",\"slug\":\"通过方法访问\",\"link\":\"#通过方法访问\",\"children\":[]},{\"level\":3,\"title\":\"mapGetters 辅助函数\",\"slug\":\"mapgetters-辅助函数\",\"link\":\"#mapgetters-辅助函数\",\"children\":[]}]},{\"level\":2,\"title\":\"Mutation\",\"slug\":\"mutation\",\"link\":\"#mutation\",\"children\":[{\"level\":3,\"title\":\"提交载荷（Payload）\",\"slug\":\"提交载荷-payload\",\"link\":\"#提交载荷-payload\",\"children\":[]},{\"level\":3,\"title\":\"使用常量替代 Mutation 事件类型\",\"slug\":\"使用常量替代-mutation-事件类型\",\"link\":\"#使用常量替代-mutation-事件类型\",\"children\":[]},{\"level\":3,\"title\":\"在组件中提交 Mutation\",\"slug\":\"在组件中提交-mutation\",\"link\":\"#在组件中提交-mutation\",\"children\":[]}]},{\"level\":2,\"title\":\"Action\",\"slug\":\"action\",\"link\":\"#action\",\"children\":[{\"level\":3,\"title\":\"分发 Action\",\"slug\":\"分发-action\",\"link\":\"#分发-action\",\"children\":[]},{\"level\":3,\"title\":\"组合 Action\",\"slug\":\"组合-action\",\"link\":\"#组合-action\",\"children\":[]}]},{\"level\":2,\"title\":\"Module\",\"slug\":\"module\",\"link\":\"#module\",\"children\":[{\"level\":3,\"title\":\"模块的局部状态\",\"slug\":\"模块的局部状态\",\"link\":\"#模块的局部状态\",\"children\":[]},{\"level\":3,\"title\":\"命名空间\",\"slug\":\"命名空间\",\"link\":\"#命名空间\",\"children\":[]},{\"level\":3,\"title\":\"在带命名空间的模块内访问全局内容（Global Assets）\",\"slug\":\"在带命名空间的模块内访问全局内容-global-assets\",\"link\":\"#在带命名空间的模块内访问全局内容-global-assets\",\"children\":[]},{\"level\":3,\"title\":\"在带命名空间的模块注册全局 action\",\"slug\":\"在带命名空间的模块注册全局-action\",\"link\":\"#在带命名空间的模块注册全局-action\",\"children\":[]},{\"level\":3,\"title\":\"带命名空间的绑定函数\",\"slug\":\"带命名空间的绑定函数\",\"link\":\"#带命名空间的绑定函数\",\"children\":[]}]}],\"git\":{\"updatedTime\":1692087584000,\"contributors\":[{\"name\":\"shulin.guo\",\"email\":\"shulin.guo@ly.com\",\"commits\":1}]},\"filePathRelative\":\"pages/vue/vuex.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
