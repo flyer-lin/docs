@@ -4052,13 +4052,6 @@ export const searchIndex = [
   },
   {
     "title": "",
-    "headers": [],
-    "path": "/pages/other/other.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
     "headers": [
       {
         "level": 2,
@@ -4320,6 +4313,13 @@ export const searchIndex = [
       }
     ],
     "path": "/pages/nodejs/nodeJS.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/pages/other/other.html",
     "pathLocale": "/",
     "extraFields": []
   },
