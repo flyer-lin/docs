@@ -781,7 +781,7 @@
 <span class="token punctuation">}</span>
 <span class="token operator">&lt;</span><span class="token operator">/</span>style<span class="token operator">></span>
 复制代码
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>简单来说，使用 <a href="/media">@media </a> 查询，可以针对不同的媒体类型定义不同的样式。<a href="/media">@media </a> 可以针对不同的屏幕尺寸设置不同的样式，特别是需要设置设计响应式的页面，<a href="/media">@media </a> 是非常有用的。当重置浏览器大小的过程中，页面也会根据浏览器的宽度和高度重新渲染页面。</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>简单来说，使用 <a href="/media" target="_blank" rel="noopener noreferrer">@media <ExternalLinkIcon/></a> 查询，可以针对不同的媒体类型定义不同的样式。<a href="/media" target="_blank" rel="noopener noreferrer">@media <ExternalLinkIcon/></a> 可以针对不同的屏幕尺寸设置不同的样式，特别是需要设置设计响应式的页面，<a href="/media" target="_blank" rel="noopener noreferrer">@media <ExternalLinkIcon/></a> 是非常有用的。当重置浏览器大小的过程中，页面也会根据浏览器的宽度和高度重新渲染页面。</p>
 <h3 id="_28-对-css-工程化的理解" tabindex="-1"><a class="header-anchor" href="#_28-对-css-工程化的理解" aria-hidden="true">#</a> 28. 对 CSS 工程化的理解</h3>
 <p>CSS 工程化是为了解决以下问题：</p>
 <ol>

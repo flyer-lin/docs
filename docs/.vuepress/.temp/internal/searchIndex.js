@@ -7,506 +7,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "类",
-    "headers": [
-      {
-        "level": 2,
-        "title": "constructor() 方法",
-        "slug": "constructor-方法",
-        "link": "#constructor-方法",
-        "children": [
-          {
-            "level": 3,
-            "title": "instanceof",
-            "slug": "instanceof",
-            "link": "#instanceof",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "类的实例",
-        "slug": "类的实例",
-        "link": "#类的实例",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "实例属性的新写法",
-        "slug": "实例属性的新写法",
-        "link": "#实例属性的新写法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "取值函数（getter）和存值函数（setter）",
-        "slug": "取值函数-getter-和存值函数-setter",
-        "link": "#取值函数-getter-和存值函数-setter",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "属性表达式",
-        "slug": "属性表达式",
-        "link": "#属性表达式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Class 表达式",
-        "slug": "class-表达式",
-        "link": "#class-表达式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "静态方法",
-        "slug": "静态方法",
-        "link": "#静态方法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "静态属性",
-        "slug": "静态属性",
-        "link": "#静态属性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "私有方法和私有属性",
-        "slug": "私有方法和私有属性",
-        "link": "#私有方法和私有属性",
-        "children": [
-          {
-            "level": 3,
-            "title": "in 运算符",
-            "slug": "in-运算符",
-            "link": "#in-运算符",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "静态块",
-        "slug": "静态块",
-        "link": "#静态块",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "类的注意点",
-        "slug": "类的注意点",
-        "link": "#类的注意点",
-        "children": [
-          {
-            "level": 3,
-            "title": "name属性",
-            "slug": "name属性",
-            "link": "#name属性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Generator 方法",
-            "slug": "generator-方法",
-            "link": "#generator-方法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "this 的指向",
-            "slug": "this-的指向",
-            "link": "#this-的指向",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "new.target 属性",
-        "slug": "new-target-属性",
-        "link": "#new-target-属性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "私有属性和私有方法的继承",
-        "slug": "私有属性和私有方法的继承",
-        "link": "#私有属性和私有方法的继承",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "静态属性和静态方法的继承",
-        "slug": "静态属性和静态方法的继承",
-        "link": "#静态属性和静态方法的继承",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Object.getPrototypeOf()",
-        "slug": "object-getprototypeof",
-        "link": "#object-getprototypeof",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "super 关键字",
-        "slug": "super-关键字",
-        "link": "#super-关键字",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "类的 prototype 属性和__proto__属性",
-        "slug": "类的-prototype-属性和-proto-属性",
-        "link": "#类的-prototype-属性和-proto-属性",
-        "children": [
-          {
-            "level": 3,
-            "title": "实例的 proto 属性",
-            "slug": "实例的-proto-属性",
-            "link": "#实例的-proto-属性",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "原生构造函数的继承",
-        "slug": "原生构造函数的继承",
-        "link": "#原生构造函数的继承",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Mixin 模式的实现",
-        "slug": "mixin-模式的实现",
-        "link": "#mixin-模式的实现",
-        "children": []
-      }
-    ],
-    "path": "/pages/class/class.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/pages/component/treeSelect.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/pages/component/%E6%8B%96%E6%8B%BD%E5%AE%9E%E7%8E%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Electron 是什么？",
-        "slug": "electron-是什么",
-        "link": "#electron-是什么",
-        "children": [
-          {
-            "level": 3,
-            "title": "什么时候使用 Electron",
-            "slug": "什么时候使用-electron",
-            "link": "#什么时候使用-electron",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "有哪些著名应用是用 Electron 开发的",
-            "slug": "有哪些著名应用是用-electron-开发的",
-            "link": "#有哪些著名应用是用-electron-开发的",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "安装 Electron",
-        "slug": "安装-electron",
-        "link": "#安装-electron",
-        "children": [
-          {
-            "level": 3,
-            "title": "下载慢解决方案",
-            "slug": "下载慢解决方案",
-            "link": "#下载慢解决方案",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Electron 第一个 Hello world 程序",
-        "slug": "electron-第一个-hello-world-程序",
-        "link": "#electron-第一个-hello-world-程序",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Electron 编写邀请小姐姐程序",
-        "slug": "electron-编写邀请小姐姐程序",
-        "link": "#electron-编写邀请小姐姐程序",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Electron Remote 模块的使用",
-        "slug": "electron-remote-模块的使用",
-        "link": "#electron-remote-模块的使用",
-        "children": [
-          {
-            "level": 3,
-            "title": "渲染进程中打开新窗口",
-            "slug": "渲染进程中打开新窗口",
-            "link": "#渲染进程中打开新窗口",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Electron 创建菜单和基本使用",
-        "slug": "electron-创建菜单和基本使用",
-        "link": "#electron-创建菜单和基本使用",
-        "children": [
-          {
-            "level": 3,
-            "title": "编写菜单模板",
-            "slug": "编写菜单模板",
-            "link": "#编写菜单模板",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "使用菜单打开新窗口",
-            "slug": "使用菜单打开新窗口",
-            "link": "#使用菜单打开新窗口",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Electron 制作右键菜单",
-        "slug": "electron-制作右键菜单",
-        "link": "#electron-制作右键菜单",
-        "children": [
-          {
-            "level": 3,
-            "title": "菜单快捷键绑定",
-            "slug": "菜单快捷键绑定",
-            "link": "#菜单快捷键绑定",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "创建右键菜单",
-            "slug": "创建右键菜单",
-            "link": "#创建右键菜单",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "程序打开调试模式",
-        "slug": "程序打开调试模式",
-        "link": "#程序打开调试模式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Electron 中通过链接打开浏览器",
-        "slug": "electron-中通过链接打开浏览器",
-        "link": "#electron-中通过链接打开浏览器",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Electron 中嵌入网页和打开子窗口",
-        "slug": "electron-中嵌入网页和打开子窗口",
-        "link": "#electron-中嵌入网页和打开子窗口",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Electron Window.open 子窗口和父窗口间的通信",
-        "slug": "electron-window-open-子窗口和父窗口间的通信",
-        "link": "#electron-window-open-子窗口和父窗口间的通信",
-        "children": [
-          {
-            "level": 3,
-            "title": "window.opener.postMessage 子窗口向父窗口传递消息",
-            "slug": "window-opener-postmessage-子窗口向父窗口传递消息",
-            "link": "#window-opener-postmessage-子窗口向父窗口传递消息",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "window.addEventListener 父窗口接收信息",
-            "slug": "window-addeventlistener-父窗口接收信息",
-            "link": "#window-addeventlistener-父窗口接收信息",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Electron 选择文件对话框",
-        "slug": "electron-选择文件对话框",
-        "link": "#electron-选择文件对话框",
-        "children": [
-          {
-            "level": 3,
-            "title": "对话框相关 API 讲解",
-            "slug": "对话框相关-api-讲解",
-            "link": "#对话框相关-api-讲解",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "选择对话框练习",
-            "slug": "选择对话框练习",
-            "link": "#选择对话框练习",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "默认路径的设置",
-            "slug": "默认路径的设置",
-            "link": "#默认路径的设置",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "过滤器的使用",
-            "slug": "过滤器的使用",
-            "link": "#过滤器的使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "自定义确定按钮",
-            "slug": "自定义确定按钮",
-            "link": "#自定义确定按钮",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "把小姐姐放到应用中",
-            "slug": "把小姐姐放到应用中",
-            "link": "#把小姐姐放到应用中",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Electron 保存对话框的操作",
-        "slug": "electron-保存对话框的操作",
-        "link": "#electron-保存对话框的操作",
-        "children": [
-          {
-            "level": 3,
-            "title": "制作一个保存按钮",
-            "slug": "制作一个保存按钮",
-            "link": "#制作一个保存按钮",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Electron 消息对话框的操作",
-        "slug": "electron-消息对话框的操作",
-        "link": "#electron-消息对话框的操作",
-        "children": [
-          {
-            "level": 3,
-            "title": "showMessageBox 相关属性",
-            "slug": "showmessagebox-相关属性",
-            "link": "#showmessagebox-相关属性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "制作一个确认对话框",
-            "slug": "制作一个确认对话框",
-            "link": "#制作一个确认对话框",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Electron 断网提醒功能制作",
-        "slug": "electron-断网提醒功能制作",
-        "link": "#electron-断网提醒功能制作",
-        "children": [
-          {
-            "level": 3,
-            "title": "相关事件",
-            "slug": "相关事件",
-            "link": "#相关事件",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Electron 底部通知消息的制作",
-        "slug": "electron-底部通知消息的制作",
-        "link": "#electron-底部通知消息的制作",
-        "children": [
-          {
-            "level": 3,
-            "title": "window.Notification 的属性参数",
-            "slug": "window-notification-的属性参数",
-            "link": "#window-notification-的属性参数",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "点击按钮提示消息",
-            "slug": "点击按钮提示消息",
-            "link": "#点击按钮提示消息",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Electron 注册全局快捷键",
-        "slug": "electron-注册全局快捷键",
-        "link": "#electron-注册全局快捷键",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Electron 剪贴板事件的使用",
-        "slug": "electron-剪贴板事件的使用",
-        "link": "#electron-剪贴板事件的使用",
-        "children": []
-      }
-    ],
-    "path": "/pages/electron/electron.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "HTML",
     "headers": [
       {
@@ -4055,6 +3555,305 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
+        "title": "Electron 是什么？",
+        "slug": "electron-是什么",
+        "link": "#electron-是什么",
+        "children": [
+          {
+            "level": 3,
+            "title": "什么时候使用 Electron",
+            "slug": "什么时候使用-electron",
+            "link": "#什么时候使用-electron",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "有哪些著名应用是用 Electron 开发的",
+            "slug": "有哪些著名应用是用-electron-开发的",
+            "link": "#有哪些著名应用是用-electron-开发的",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "安装 Electron",
+        "slug": "安装-electron",
+        "link": "#安装-electron",
+        "children": [
+          {
+            "level": 3,
+            "title": "下载慢解决方案",
+            "slug": "下载慢解决方案",
+            "link": "#下载慢解决方案",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Electron 第一个 Hello world 程序",
+        "slug": "electron-第一个-hello-world-程序",
+        "link": "#electron-第一个-hello-world-程序",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Electron 编写邀请小姐姐程序",
+        "slug": "electron-编写邀请小姐姐程序",
+        "link": "#electron-编写邀请小姐姐程序",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Electron Remote 模块的使用",
+        "slug": "electron-remote-模块的使用",
+        "link": "#electron-remote-模块的使用",
+        "children": [
+          {
+            "level": 3,
+            "title": "渲染进程中打开新窗口",
+            "slug": "渲染进程中打开新窗口",
+            "link": "#渲染进程中打开新窗口",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Electron 创建菜单和基本使用",
+        "slug": "electron-创建菜单和基本使用",
+        "link": "#electron-创建菜单和基本使用",
+        "children": [
+          {
+            "level": 3,
+            "title": "编写菜单模板",
+            "slug": "编写菜单模板",
+            "link": "#编写菜单模板",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用菜单打开新窗口",
+            "slug": "使用菜单打开新窗口",
+            "link": "#使用菜单打开新窗口",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Electron 制作右键菜单",
+        "slug": "electron-制作右键菜单",
+        "link": "#electron-制作右键菜单",
+        "children": [
+          {
+            "level": 3,
+            "title": "菜单快捷键绑定",
+            "slug": "菜单快捷键绑定",
+            "link": "#菜单快捷键绑定",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "创建右键菜单",
+            "slug": "创建右键菜单",
+            "link": "#创建右键菜单",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "程序打开调试模式",
+        "slug": "程序打开调试模式",
+        "link": "#程序打开调试模式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Electron 中通过链接打开浏览器",
+        "slug": "electron-中通过链接打开浏览器",
+        "link": "#electron-中通过链接打开浏览器",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Electron 中嵌入网页和打开子窗口",
+        "slug": "electron-中嵌入网页和打开子窗口",
+        "link": "#electron-中嵌入网页和打开子窗口",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Electron Window.open 子窗口和父窗口间的通信",
+        "slug": "electron-window-open-子窗口和父窗口间的通信",
+        "link": "#electron-window-open-子窗口和父窗口间的通信",
+        "children": [
+          {
+            "level": 3,
+            "title": "window.opener.postMessage 子窗口向父窗口传递消息",
+            "slug": "window-opener-postmessage-子窗口向父窗口传递消息",
+            "link": "#window-opener-postmessage-子窗口向父窗口传递消息",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "window.addEventListener 父窗口接收信息",
+            "slug": "window-addeventlistener-父窗口接收信息",
+            "link": "#window-addeventlistener-父窗口接收信息",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Electron 选择文件对话框",
+        "slug": "electron-选择文件对话框",
+        "link": "#electron-选择文件对话框",
+        "children": [
+          {
+            "level": 3,
+            "title": "对话框相关 API 讲解",
+            "slug": "对话框相关-api-讲解",
+            "link": "#对话框相关-api-讲解",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "选择对话框练习",
+            "slug": "选择对话框练习",
+            "link": "#选择对话框练习",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "默认路径的设置",
+            "slug": "默认路径的设置",
+            "link": "#默认路径的设置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "过滤器的使用",
+            "slug": "过滤器的使用",
+            "link": "#过滤器的使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "自定义确定按钮",
+            "slug": "自定义确定按钮",
+            "link": "#自定义确定按钮",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "把小姐姐放到应用中",
+            "slug": "把小姐姐放到应用中",
+            "link": "#把小姐姐放到应用中",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Electron 保存对话框的操作",
+        "slug": "electron-保存对话框的操作",
+        "link": "#electron-保存对话框的操作",
+        "children": [
+          {
+            "level": 3,
+            "title": "制作一个保存按钮",
+            "slug": "制作一个保存按钮",
+            "link": "#制作一个保存按钮",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Electron 消息对话框的操作",
+        "slug": "electron-消息对话框的操作",
+        "link": "#electron-消息对话框的操作",
+        "children": [
+          {
+            "level": 3,
+            "title": "showMessageBox 相关属性",
+            "slug": "showmessagebox-相关属性",
+            "link": "#showmessagebox-相关属性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "制作一个确认对话框",
+            "slug": "制作一个确认对话框",
+            "link": "#制作一个确认对话框",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Electron 断网提醒功能制作",
+        "slug": "electron-断网提醒功能制作",
+        "link": "#electron-断网提醒功能制作",
+        "children": [
+          {
+            "level": 3,
+            "title": "相关事件",
+            "slug": "相关事件",
+            "link": "#相关事件",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Electron 底部通知消息的制作",
+        "slug": "electron-底部通知消息的制作",
+        "link": "#electron-底部通知消息的制作",
+        "children": [
+          {
+            "level": 3,
+            "title": "window.Notification 的属性参数",
+            "slug": "window-notification-的属性参数",
+            "link": "#window-notification-的属性参数",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "点击按钮提示消息",
+            "slug": "点击按钮提示消息",
+            "link": "#点击按钮提示消息",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Electron 注册全局快捷键",
+        "slug": "electron-注册全局快捷键",
+        "link": "#electron-注册全局快捷键",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Electron 剪贴板事件的使用",
+        "slug": "electron-剪贴板事件的使用",
+        "link": "#electron-剪贴板事件的使用",
+        "children": []
+      }
+    ],
+    "path": "/pages/electron/electron.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
         "title": "Buffer（缓冲器）",
         "slug": "buffer-缓冲器",
         "link": "#buffer-缓冲器",
@@ -4324,6 +4123,193 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "类",
+    "headers": [
+      {
+        "level": 2,
+        "title": "constructor() 方法",
+        "slug": "constructor-方法",
+        "link": "#constructor-方法",
+        "children": [
+          {
+            "level": 3,
+            "title": "instanceof",
+            "slug": "instanceof",
+            "link": "#instanceof",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "类的实例",
+        "slug": "类的实例",
+        "link": "#类的实例",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "实例属性的新写法",
+        "slug": "实例属性的新写法",
+        "link": "#实例属性的新写法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "取值函数（getter）和存值函数（setter）",
+        "slug": "取值函数-getter-和存值函数-setter",
+        "link": "#取值函数-getter-和存值函数-setter",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "属性表达式",
+        "slug": "属性表达式",
+        "link": "#属性表达式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Class 表达式",
+        "slug": "class-表达式",
+        "link": "#class-表达式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "静态方法",
+        "slug": "静态方法",
+        "link": "#静态方法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "静态属性",
+        "slug": "静态属性",
+        "link": "#静态属性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "私有方法和私有属性",
+        "slug": "私有方法和私有属性",
+        "link": "#私有方法和私有属性",
+        "children": [
+          {
+            "level": 3,
+            "title": "in 运算符",
+            "slug": "in-运算符",
+            "link": "#in-运算符",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "静态块",
+        "slug": "静态块",
+        "link": "#静态块",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "类的注意点",
+        "slug": "类的注意点",
+        "link": "#类的注意点",
+        "children": [
+          {
+            "level": 3,
+            "title": "name属性",
+            "slug": "name属性",
+            "link": "#name属性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Generator 方法",
+            "slug": "generator-方法",
+            "link": "#generator-方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "this 的指向",
+            "slug": "this-的指向",
+            "link": "#this-的指向",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "new.target 属性",
+        "slug": "new-target-属性",
+        "link": "#new-target-属性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "私有属性和私有方法的继承",
+        "slug": "私有属性和私有方法的继承",
+        "link": "#私有属性和私有方法的继承",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "静态属性和静态方法的继承",
+        "slug": "静态属性和静态方法的继承",
+        "link": "#静态属性和静态方法的继承",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Object.getPrototypeOf()",
+        "slug": "object-getprototypeof",
+        "link": "#object-getprototypeof",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "super 关键字",
+        "slug": "super-关键字",
+        "link": "#super-关键字",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "类的 prototype 属性和__proto__属性",
+        "slug": "类的-prototype-属性和-proto-属性",
+        "link": "#类的-prototype-属性和-proto-属性",
+        "children": [
+          {
+            "level": 3,
+            "title": "实例的 proto 属性",
+            "slug": "实例的-proto-属性",
+            "link": "#实例的-proto-属性",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "原生构造函数的继承",
+        "slug": "原生构造函数的继承",
+        "link": "#原生构造函数的继承",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Mixin 模式的实现",
+        "slug": "mixin-模式的实现",
+        "link": "#mixin-模式的实现",
+        "children": []
+      }
+    ],
+    "path": "/pages/class/class.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "react",
     "headers": [
       {
@@ -4532,6 +4518,20 @@ export const searchIndex = [
       }
     ],
     "path": "/pages/ts/ts%20%E6%8E%A5%E5%8F%A3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/pages/component/treeSelect.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/pages/component/%E6%8B%96%E6%8B%BD%E5%AE%9E%E7%8E%B0.html",
     "pathLocale": "/",
     "extraFields": []
   },
