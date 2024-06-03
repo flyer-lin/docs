@@ -6,6 +6,7 @@ export default defineConfig({
   title: "林的学习笔记",
   description: "林的学习笔记",
   head: [['link', { rel: 'icon', href: '//vitepress.dev/vitepress-logo-mini.svg' }]],
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '//vitepress.dev/vitepress-logo-mini.svg',

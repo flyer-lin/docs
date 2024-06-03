@@ -168,7 +168,7 @@ const VDOM = React.createElement('h1',{id:"title"},"nihao")
 
 ## 函数式组件
 
-```react
+```html
 //1.先创建函数，函数可以有参数，也可以没有，但是必须要有返回值 返回一个虚拟DOM
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
@@ -186,7 +186,7 @@ ReactDOM.Render(<Welcom name = "ss" />,document.getElementById("div"));
 
 ## Class组件
 
-```react
+```html
 //必须继承React.Component
 //然后重写Render()方法，该方法一定要有返回值，返回一个虚拟DOM
 class Welcome extends React.Component {
@@ -212,7 +212,7 @@ ReactDOM.Render(<Welcom name = "ss" />,document.getElementById("div"));
 
 我们发现组件是可以包含中使用的， 而且如果创建的数组，必须要代一个key。数组元素中使用的 key 在其兄弟节点之间应该是独一无二的。然而，它们不需要是全局唯一的。当我们生成两个不同的数组时，我们可以使用相同的 key 值 
 
-```react
+```html
 <script type="text/babel">
 
         //创建一个组件<li>
@@ -260,7 +260,7 @@ state是组件对象最重要的属性，值是对象（可以包含多个key-va
 
 核心代码如下：
 
-```react
+```html
 <body>
     <!-- 准备好容器 -->
     <div id="test">
@@ -322,7 +322,7 @@ this.setState()，该方法接收两种参数：对象或函数。
 
 **大部分开发中用到的都是React封装的事件，比如onChange、onClick、onTouchMove等，这些事件处理程序中的setState都是异步处理的。**
 
-```react
+```html
 //1.创建组件
 class St extends React.Component{
     //可以直接对其进行赋值
@@ -341,7 +341,7 @@ class St extends React.Component{
 
 上面的案例中预期setState使得isHot变成了11，输出也应该是11。然而在控制台打印的却是10，也就是并没有对其进行更新。这是因为异步的进行了处理，在输出的时候还没有对其进行处理。
 
-```react
+```html
 componentDidMount(){
     document.getElementById("test").addEventListener("click",()=>{
         this.setState({isHot: this.state.isHot + 1});
@@ -358,7 +358,7 @@ componentDidMount(){
 
 **如果是同步更新，每一个setState对调用一个render，并且如果多次调用setState会以最后调用的为准，前面的将会作废；如果是异步更新，多个setSate会统一调用一次render**
 
-```react
+```html
 dem = () =>{
     this.setState({
         isHot:  1,
@@ -377,7 +377,7 @@ dem = () =>{
 
 上面的最后会输出：isHot是888，cont是888
 
-```react
+```html
  dem = () =>{
                 
                 this.setState({
@@ -404,7 +404,7 @@ dem = () =>{
 
 2.使用了箭头函数，将this进行了改变
 
-```react
+```html
 <body>
     <!-- 准备好容器 -->
     <div id="test">
@@ -437,7 +437,7 @@ dem = () =>{
 
 如果想要在调用方法的时候传递参数，有两个方法：
 
-```react
+```html
 <button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button>
 <button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>
 ```
@@ -452,7 +452,7 @@ Props主要用来传递数据，比如组件之间进行传值
 
 基本使用：
 
-```react
+```html
 <body>
     <div id = "div">
 
@@ -479,7 +479,7 @@ Props主要用来传递数据，比如组件之间进行传值
 
 如果传递的数据是一个对象，可以更加简便的使用
 
-```react
+```html
 <script type="text/babel">
     class Person extends React.Component{
         render(){
@@ -538,7 +538,7 @@ react对此提供了相应的解决方法：
 - propTypes:类型检查，还可以限制不能为空
 - defaultProps：默认值
 
-```react
+```html
 <script type="text/babel">
 
     
@@ -586,7 +586,7 @@ react对此提供了相应的解决方法：
 
 函数在使用props的时候，是作为参数进行使用的(props)；
 
-```react
+```html
 function Person(props){
           return (
                 <ul>
@@ -610,7 +610,7 @@ Refs主要提供了三种方式：
 
 案例：给需要的节点添加ref属性，此时该实例对象的refs上就会有这个值。就可以利用实例对象的refs获取已经添加节点的值
 
-```react
+```html
 <input ref="dian" type="text" placeholder="点击弹出" />
 
  inputBlur = () =>{
@@ -624,14 +624,14 @@ Refs主要提供了三种方式：
 
 如：ref里面就是一个回调函数，self就是该input标签。然后在将该DOM元素赋值给实例对象中的一个属性
 
-```react
+```html
 <input ref={self =>{ this.dian = self;console.log(self)}}  placeholder="点击弹出" />
 ```
 
 
 也可以将函数提取出来，在ref中进行调用
 
-```react
+```html
 isRef = (self) =>{
             this.dian = self;
             console.log(self)
@@ -646,7 +646,7 @@ React其实已经给我们提供了一个相应的API，他会自动的将该DOM
 
 如下：依旧先在DOM元素中添加一个ref元素
 
-```react
+```html
 {/*<input ref={this.容器名称} type="text" placeholder="点击弹出" />*/}
 <input ref={this.MyRef} type="text" placeholder="点击弹出" />
 <input ref={this.MyRef1} type="text" placeholder="点击弹出" />
@@ -654,7 +654,7 @@ React其实已经给我们提供了一个相应的API，他会自动的将该DOM
 
 通过API，创建React的容器，相当于省略了回调的中间环节。但是这个容器是专门专用的，所以每一个ref都需要创建这个。该API会将DOM元素赋值给实例对象的名称为容器名称的属性的current【这个current是固定的】
 
-```react
+```html
 {/*容器名称 = React.createRef()*/}
 MyRef = React.createRef();
 MyRef1 = React.createRef();
@@ -663,7 +663,7 @@ MyRef1 = React.createRef();
 
 然后就可以使用了
 
-```react
+```html
 btnOnClick = () =>{
     //创建之后，将自身节点，传入current中
     console.log(this.MyRef.current.value);
@@ -688,7 +688,7 @@ React的事件是通过onXxx属性指定事件处理函数
 
 先声明一个事件，然后在根据事件创建相应的函数，根据事件的event参数，将DOM元素获取到。
 
-```react
+```html
 <input onChange={this.saveName} type = "text" name ="username"/>
 
 saveName = (event) =>{
@@ -702,7 +702,7 @@ saveName = (event) =>{
 
  使 React 的 state 成为“唯一数据源”。渲染表单的 React 组件还控制着用户输入过程中表单发生的操作。被 React 以这种方式控制取值的表单输入元素就叫做“受控组件”。 
 
-```react
+```html
 saveName = (event) =>{
     this.setState({name:event.target.value});
 }
@@ -732,7 +732,7 @@ render() {
 
 如下：下面并没有使用state来控制属性，使用的是事件来控制表单的属性值。
 
-```react
+```html
 class Login extends React.Component{
 
     login = (event) =>{
@@ -764,7 +764,7 @@ class Login extends React.Component{
 
 如下，我们将上面的案例简化，创建高级函数：
 
-```react
+```html
  class Login extends React.Component{
  
         state = {name:"",pwd:""};
@@ -805,7 +805,7 @@ class Login extends React.Component{
 
 我们通过一个案例更详细的了解这个生命周期：
 
-```react
+```html
  class A extends React.Component{
 
         constructor(props){
@@ -942,7 +942,7 @@ class Login extends React.Component{
 
 我们可以使用state状态，改变新闻后面的值，但是为了同时显示这些内容，我们应该为state的属性定义一个数组。并在创建组件之后开启一个定时器，不断的进行更新state。更新渲染组件
 
-```react
+```html
  class New extends React.Component{
 
         state = {num:[]};
@@ -975,7 +975,7 @@ class Login extends React.Component{
 
 我们在组件渲染到DOM之前获取组件的高度，然后用组件渲染之后的高度减去之前的高度就是一条新的内容的高度，这样在不断的累加到滚动条位置上。
 
-```react
+```html
 getSnapshotBeforeUpdate(){
 	return this.refs.list.scrollHeight;
 }
@@ -997,7 +997,7 @@ componentDidUpdate(preProps,preState,height){
 
 但是如果你的标签是动态的，是有可能刷新的，就必须显示的指定key。必须上面案使用map进行便利的时候就必须指定Key:
 
-```react
+```html
 this.state.num.map((n,index)=>{
 	return <div className="news" key={index} >新闻{n}</div>
 })
@@ -1011,7 +1011,7 @@ this.state.num.map((n,index)=>{
 
 在一个组件中，我们先创建了两个对象，通过循环的方式放入< li>标签中，此时key使用的是index。
 
-```react
+```html
 person:[
     {id:1,name:"张三",age:18},
     {id:2,name:"李四",age:19}
@@ -1029,7 +1029,7 @@ this.state.person.map((preson,index)=>{
 
 我们通过修改State来控制对象的添加。
 
-```react
+```html
 <button onClick={this.addObject}>点击增加对象</button>
 addObject = () =>{
     let {person} = this.state;
@@ -1123,7 +1123,7 @@ npm start   //启动这个项目
 
 这里面最主要的还是这个Index.html文件：
 
-```react
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -1168,7 +1168,7 @@ src文件：
 
 App.js:  【注意：创建好的组件一定要暴露出去】
 
-```react
+```html
 //创建外壳组件APP
 import React from 'react'
 
@@ -1185,7 +1185,7 @@ export default App
 
 index.js: 【主要的作用其实就是将App这个组件渲染到页面上】
 
-```react
+```html
 //引入核心库
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -1202,7 +1202,7 @@ ReactDOM.render(<App />,document.getElementById("root"))
 
 我们在顶一个Hello组件：
 
-```react
+```html
 import React,{Componet} from 'react'
 
 export default class Hello extends Componet{
@@ -1216,7 +1216,7 @@ export default class Hello extends Componet{
 
 在App组件中，进行使用
 
-```react
+```html
 class App extends Component{
     render(){
         return (
@@ -1242,7 +1242,7 @@ class App extends Component{
 
 2.引入并使用的时候改变方式：
 
-```react
+```html
 import React,{Component}from 'react'
 import hello from './hello.module.css'  //引入的时候给一个名称
 
@@ -1364,13 +1364,13 @@ React本身只关注与页面，并不包含发送ajax请求的代码，所以�
 
 引入PubSubJs:
 
-```react
+```html
 import PubSub from 'pubsub-js'
 ```
 
 订阅消息：
 
-```react
+```html
 PubSub.subscribe("getSate",(_,data)=>{
             console.log(data)
         })
@@ -1380,7 +1380,7 @@ PubSub.subscribe("订阅的消息名称",回调函数，第一个参数是消息
 
 发布消息：
 
-```react
+```html
 PubSub.publish("getSate",{isFrist:false,isLoad:true})
 PubSub.publish("订阅的消息名称",传递的数据)
 ```
@@ -1403,7 +1403,7 @@ await右边是一个表达式，如果该表达式返回的是一个Promise对�
 
 举个例子：
 
-```react
+```html
  f1 = () =>{
         return new Promise((resolve,reject)=>{
             // resolve(1);
@@ -1492,7 +1492,7 @@ web【主要适用于前端】,native【主要适用于本地】,anywhere【任�
 
 < App>最外侧包裹了一个< BrowserRouter>或者< HashRouter>
 
-```react
+```html
 <div className="list-group">
     <Link className="list-group-item"  to="/about">About</Link>
     <Link className="list-group-item"  to="/home">Home</Link>
@@ -1558,7 +1558,7 @@ match:
 
 如下代码，就写了ctiveClassName，当点击的时候就会触发这个class的样式
 
-```react
+```html
 {/*NavLink在点击的时候就会去找activeClassName="ss"所指定的class的值，如果不添加默认是active
  这是因为Link相当于是把标签写死了，不能去改变什么。*/}
 
@@ -1570,7 +1570,7 @@ match:
 
 因此可以自定义一个NavLink：
 
-```react
+```html
  // 通过{...对象}的形式解析对象，相当于将对象中的属性全部展开
  //<NavLink  to = {this.props.to} children = {this.props.children}/>
 <NavLink className="list-group-item" {...this.props}/>
@@ -1578,7 +1578,7 @@ match:
 
 ​	在使用的时候：直接写每个标签中不一样的部分就行，比如路径和名称
 
-```react
+```html
 {/*将NavLink进行封装，成为MyNavLink,通过props进行传参数，标签体内容props是特殊的一个属性，叫做children */}
 <MyNavLink to = "/about" >About</MyNavLink>
 ```
@@ -1595,7 +1595,7 @@ match:
 
 但是在写路由的时候，有的时候就会出现多级目录，
 
-```react
+```html
 <MyNavLink to = "/cyk/about" >About</MyNavLink>
 
 <Route path="/cyk/about"component={About}/>
@@ -1610,7 +1610,7 @@ match:
 
 1.样式加载使用绝对位置
 
-```react
+```html
  <link href="/css/bootstrap.css" rel="stylesheet"> 
 ```
 
@@ -1630,7 +1630,7 @@ react默认是开启模糊匹配的。
 
 比如：
 
-```react
+```html
 <MyNavLink to = "/home/a/b" >Home</MyNavLink>
 ```
 
@@ -1638,13 +1638,13 @@ react默认是开启模糊匹配的。
 
 如下就可以匹配到相应的路由：
 
-```react
+```html
 <Route path="/home"component={Home}/>
 ```
 
 但是如果是下面这个就会失败，也就是说他是根据路径一级一级查询的，可以包含前面那一部分，但并不是只包含部分就可以。
 
-```react
+```html
 <Route path="/a" component={Home}/>
 ```
 
@@ -1652,7 +1652,7 @@ react默认是开启模糊匹配的。
 
 如以下：这样就精确的匹配/home，则上面的/home/a/b就不行了
 
-```react
+```html
 <Route exact={true}  path="/home" component={Home}/>
 或者
 <Route exact path="/home" component={Home}/>
@@ -1667,7 +1667,7 @@ react默认是开启模糊匹配的。
 
 此时就需要使用Redirect进行默认匹配了。如下的代码就是默认匹配/home路径所到的组件
 
-```react
+```html
 <Switch>
     <Route path="/about"component={About}/>
     {/* exact={true}：开启严格匹配的模式，路径必须一致 */}
@@ -1686,7 +1686,7 @@ react默认是开启模糊匹配的。
 
 我们在home这个路由组件中又添加两个组件：
 
-```react
+```html
 APP.jsx:
 <Route   path="/home" component={Home}/>
 Home.jsx:
