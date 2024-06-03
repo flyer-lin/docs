@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/flyer-lin/docs/',
+  base: '/docs/',
   title: "林的学习笔记",
   description: "林的学习笔记",
   head: [['link', { rel: 'icon', href: '//vitepress.dev/vitepress-logo-mini.svg' }]],
